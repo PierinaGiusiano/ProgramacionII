@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Currículum Vitae</title>
+</head>
+<body>
+<h1>Rellene con sus datos:</h1>
+<form action="https://fazendafondos.mx/wp-content/uploads/gracias.png">
+    <label for="nom">NOMBRE/S:</label>
+    <input type="text" name="nomb" id="nom"/>
+    <br><br>
+
+    <label for="ape">APELLIDO/S:</label>
+    <input type="text" name="apel" id="ape" />
+    <br><br>
+
+    <label for="dni">DNI:</label>
+    <input type="text" name="dn" id="dni" />
+    <br><br>
+
+    <label for="dir">DIRECCIÓN:</label>
+    <input type="text" name="direc" id="dir"/>
+    <br><br>
+
+    <fieldset>
+        <p>GÉNERO:</p>
+         <input type="radio" name="genero" id="mas"/>
+         <label for="mas">Masculino<br>
+
+         <input type="radio" name="genero" id="fem"/>
+         <label for="fem">Femenino<br>
+
+         <input type="radio" name="genero" id="nb"/>
+         <label for="nb">No Binario<br>
+
+         <input type="radio" name="genero" id="pnd"/>
+         <label for="pmd">Prefiero no decirlo</label><br>
+
+         <label for="otro">Otro:</label>
+         <input type="text" name="genero" id="otro"/>
+     </fieldset>
+     <br>
+
+     <label for="fecha">FECHA DE NACIMIENTO:</label>
+     <input type="date" name="fechanac" id="fecha"/>
+     <br><br>
+
+     <label for="foto">ADJUNTE SU FOTO:</label>
+     <input type="file" name="fotoperfil" id="foto"/>
+     <br><br>
+
+     <label for="cv">ADJUNTE SU CURRICULUM VITAE:</label>
+     <input type="file" name="curriculum" id="cv"/>
+     <br><br>
+
+     <fieldset>
+        <p>NIVEL DE ESTUDIO:</p>
+        <select name="nivel">
+            <option value="1">Primaria Completa</option> 
+            <option value="2">Primaria Incompleta</option> 
+            <option value="3">Secundario Completo</option>
+            <option value="4">Secundario Incompleto</option> 
+            <option value="5">Terciario/Universitario Completo</option> 
+            <option value="6">Terciario/Universitario Incompleto</option> 
+        </select>
+    </fieldset>
+    <br>
+    <fieldset>
+        <p>LENGUAJES CONOCIDOS:</p>
+        <input type="checkbox" name="leng" id="cmas"/>
+        <label for="cmas">C++</label><br>
+
+        <input type="checkbox" name="leng" id="csharp"/>
+        <label for="csharp">C#</label><br>
+
+        <input type="checkbox" name="leng" id="html"/>
+        <label for="html">HTML</label><br>
+
+        <input type="checkbox" name="leng" id="css"/>
+        <label for="css">CSS</label><br>
+
+        <input type="checkbox" name="leng" id="js"/>
+        <label for="js">JavaScript</label><br>
+
+        <label for="otro">Otro/s:</label>
+        <input type="text" name="leng" id="otro"/>
+    </fieldset>
+    <br>
+    <input type="submit" value="Enviar información">
+    <input type="reset" value="Borrar información">
+</form>
+</body>
+</html>
