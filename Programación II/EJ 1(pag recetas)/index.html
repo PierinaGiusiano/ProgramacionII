@@ -4,15 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recetas de Cocina</title>
+    <title>Recetas Caseras</title>
+    <link rel="shortcut icon" type="image/png" href="imagenes/logo.png"/>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <center><img src="cocina.png" alt="imagen ilustrativa"></center>
-    <h1 align="center"> RECETAS DE COCINA CASERAS </h1>
-    <ul>
-        <li><h2><a href="empanadas.html"> Empanadas.</a></h2></li>
-        <li><h2><a href="carneypapas.html"> Carne con papas al horno.</a></h2></li>
-        <li><h2><a href="brownie.html"> Brownie con dulce de leche y merengue italiano.</a></h2></li>
-    </ul>
+    <div class="container">
+        <header>
+            <div class="navbar">
+                <img src="imagenes/logo.png" alt="logo" width=100px>
+                <ul>
+                    <li><h2><a href="index.html"> INICIO </a></h2></li>
+                    <li><h2><a href="entrada.html"> ENTRADA </a></h2></li>
+                    <li><h2><a href="principal.html"> PRINCIPAL </a></h2></li>
+                    <li><h2><a href="postre.html"> POSTRE </a></h2></li>
+                </ul>
+            </div>
+        </header>
+       
+        <main>
+            <div class="izquierda">
+                <h1> RECETAS <span>CASERAS</span></h1>
+                <h3>No existe modernidad sin una <span>buena tradición</span></h3>
+                <p>Descubre las Recetas de Cocina Casera fáciles y para todos los bolsillos. Recetas diárias con Menú Semanales, Viajes y gastronomía de todo el Mundo.</p>
+                <img src="imagenes/linea.png" alt="" class="line" width="500px">
+            </div>
+            <div class="derecha">
+                <img src="imagenes/abstract.png" alt="imagen ilustrativa" class="img">
+            </div> 
+        </main>
+      
+        <div class="container-card">
+            <div class="card">
+                <figure>
+                    <img src="imagenes/entrada.png" alt="" class="srv">
+                </figure>
+                <div class="contenido-card">
+                    <h3>Plato de Entrada</h3>
+                    <p class="taruno">El aperitivo es la comida ligera que se toma para abrir el apetito, antes de la comida principal del mediodía o antes de la cena.</p>
+                    <a href="entrada.html">Receta</a>
+                </div>
+            </div>
+            <div class="card">
+                <figure>
+                    <img src="imagenes/principal.png" alt="" class="srv">
+                </figure>
+                <div class="contenido-card">
+                    <h3>Plato Principal</h3>
+                    <p>El plato principal o segundo plato​ de una comida, es el segundo de los dos tiempos que se sirven en un menú tradicional europeo. Por lo tanto, prosigue al primer plato o entrante, y precede al postre.</p>
+                    <a href="principal.html">Receta</a>
+                </div>
+            </div>
+            <div class="card">
+                <figure>
+                    <img src="imagenes/postre.png" alt="" class="srv">
+                </figure>
+                <div class="contenido-card">
+                    <h3>Postre</h3>
+                    <p>El postre es el plato de sabor dulce o salado que se toma al final de la comida, o de merienda. Cuando se habla de postres se entiende alguna preparación dulce, bien sean cremas, tartas, pasteles, helados, bombones, etc.</p>
+                    <a href="postre.html">Receta</a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <h4>Giusiano Pierina María</h4>
+            <h4>© All rights reserved</h4>
+            <h4>UTN-Programación II</h4>
+        </footer>
+        
+    </div>    
 </body>
 </html>

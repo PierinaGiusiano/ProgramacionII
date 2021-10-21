@@ -1,0 +1,148 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior:smooth;
+    font-family: 'Rubik', sans-serif;
+}
+	
+.container{
+	height: 758px;
+	background: url(imagenes/fondo.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#logo {
+    width: 200px;
+	margin-left: 20px;
+}
+
+body{
+	overflow: hidden;
+}
+
+nav{
+	padding: 10px;
+}
+
+nav .btn-inicio{
+	background-color:  #bd91ab ;
+	background-image: linear-gradient(315deg, #bd91ab 0%, #afc1dd 74%);
+}
+	
+nav .btn-inicio{
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-decoration: none;
+   font-weight: bold;
+   transition: 1s;
+   background-size: 200% auto;
+   color: rgb(0, 0, 0);            
+   border-radius: 30px;
+   display: block;
+}
+
+nav .btn-inicio:hover{
+   background-position: right center;
+   color: #ffffff;
+   text-decoration: none;
+}
+
+main{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 60px;
+    margin-left: 70px;
+}
+
+.izquierda, .derecha{
+    flex-basis: 50%;
+}
+
+.derecha img{
+    width: 85%;
+	margin-top: -60px;
+	margin-left: 60px;
+}
+
+.izquierda h1{
+    font-size: 45px;
+    padding-bottom: 5px;
+	background: linear-gradient(to left, #bd91ab 26%, #99adce 74%);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+.izquierda h2{
+	margin:5px 0px 10px;
+	font-size: 25px;
+	color:#343941;
+}
+
+.izquierda p{
+	font-size: 18px;
+	margin-bottom: 5px;
+	color:#4d5768;
+}
+
+.izquierda ul li h3{
+	font-size: 20px;
+	color: #343941;
+	margin: 5px 40px 5px;
+}
+
+.izquierda ul li h4{
+	margin-left:40px;
+	color:#4d5768;
+	font-size: 18px;
+}
+
+.izquierda ul li{
+    line-height: 1.5;
+    list-style-type: none;
+}
+
+.izquierda ul li .link{
+	text-decoration: none;
+	color: #a0708c;
+}
+
+.izquierda ul li:before {
+    content: "◐";
+    position:absolute;
+	margin-top: 5px;
+    color: #bd91ab;
+}
+
+.btn-volver{
+	background-color:  #bd91ab ;
+	background-image: linear-gradient(315deg, #bd91ab 0%, #afc1dd 74%);
+}
+	
+.btn-volver{
+   margin-top: 20px;
+   width: 60px;
+   padding: 15px 15px;
+   text-align: center;
+   text-decoration: none;
+   font-weight: bold;
+   transition: 1s;
+   background-size: 200% auto;
+   color: rgb(0, 0, 0);            
+   border-radius: 30px;
+   display: block;
+}
+
+.btn-volver:hover{
+   background-position: right center;
+   color: #ffffff;
+   text-decoration: none;
+}
+

@@ -1,0 +1,90 @@
+  
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+      background: linear-gradient(-45deg, #fabaa7, #fab2cd, #b3e7fa, #a8f5e3);
+      background-size: 400% 400%;
+      animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
+  .container {
+    background-color: white;
+    display: block;
+    margin: auto;
+    width: 900px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding:30px;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 30px rgba(59, 59, 59, 0.637);
+  }
+
+  .container h1{
+    text-align: center;
+	padding:20px;
+  	background: linear-gradient(-45deg,#da795c, #d45a87, #4592ad , #5cb8a2 );
+    -webkit-background-clip: text;
+	color: transparent;
+ }
+
+  .container span{
+    background: linear-gradient(-45deg,#da795c, #d45a87, #4592ad , #5cb8a2 );
+    -webkit-background-clip: text;
+	color: transparent;
+    letter-spacing: 0px;
+    word-spacing: 12px;
+ }
+
+ .container .consigna{
+     background-color: #e2fff98a;
+     border: solid 1px #6bd1b9;
+     padding: 10px;
+     margin: 15px 0px 15px;
+     letter-spacing: 2px;
+     color: rgb(2, 68, 68);
+ }
+
+ .container .resultado{
+    background-color: #ffe4f38a;
+    border: solid 1px #ffa0c4;
+    padding: 10px;
+    margin: 15px 0px 15px;
+    letter-spacing: 2px;
+    color: rgb(136, 56, 83);
+ }
+
+ button{
+    cursor: pointer; 
+    cursor:hand;
+    border-radius: 30px;
+    background: linear-gradient(-45deg,#ffd0c2, #ffcfe1, #caf1ff , #ccfff3 );
+    font-weight: 700;
+ }
+ 
+ footer{
+    text-align: center;
+  }
+  
+  footer p{
+    display: inline-table;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+  }
